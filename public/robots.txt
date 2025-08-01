@@ -1,0 +1,19 @@
+
+User-agent: *
+Allow: /
+
+# Disallow admin and login paths
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+Disallow: /api/
+
+# Allow all search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://rebecadantas.com.br/sitemap.xml
