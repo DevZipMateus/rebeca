@@ -25,7 +25,7 @@ const Footer = () => {
               A perícia que você pode confiar!
             </p>
             <div className="text-rose-400 font-medium">
-              CNPJ: 46.105.222/0001-XX
+              CNPJ: 46.105.222/0001-70
             </div>
           </div>
           
