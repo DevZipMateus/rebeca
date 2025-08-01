@@ -31,17 +31,17 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="section bg-gray-50">
+    <section id="services" className="section bg-[#21211F]">
       <div className="container-custom">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-block bg-rose-100 text-rose-700 font-medium px-4 py-1.5 rounded-full text-sm mb-4">
             Nossos Serviços
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Soluções especializadas em <span className="text-rose-600">perícia trabalhista</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+            Soluções especializadas em <span className="text-rose-400">perícia trabalhista</span>
           </h2>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-300 text-lg">
             Oferecemos serviços técnicos especializados para garantir precisão e conformidade 
             com a legislação trabalhista em todas as suas necessidades.
           </p>
@@ -52,17 +52,17 @@ const Services = () => {
           {services.map((service) => (
             <div 
               key={service.id} 
-              className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02] animate-fade-in border border-gray-100 hover:border-rose-200"
+              className="bg-gray-800/50 rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02] animate-fade-in border border-gray-700 hover:border-rose-400/50"
               style={{ animationDelay: service.delay }}
             >
               <div className={`bg-gradient-to-r ${service.color} p-4 rounded-xl inline-block mb-6`}>
                 <service.icon className="text-white" size={28} />
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-900">{service.title}</h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
+              <h3 className="text-xl font-semibold mb-4 text-white">{service.title}</h3>
+              <p className="text-gray-300 mb-6 leading-relaxed">{service.description}</p>
               
-              <div className="pt-4 border-t border-gray-100">
-                <div className="flex items-center text-rose-600 font-medium hover:text-rose-700 transition-colors">
+              <div className="pt-4 border-t border-gray-700">
+                <div className="flex items-center text-rose-400 font-medium hover:text-rose-300 transition-colors">
                   <span>Saiba mais</span>
                   <ArrowRight size={16} className="ml-2" />
                 </div>
