@@ -58,7 +58,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 transition-all duration-300 transform hover:scale-[1.02]">
             <img 
-              src="/lovable-uploads/7fd93af4-e775-45ed-b33c-d51a3da7848e.png" 
+              src="/lovable-uploads/eb26d8cf-aab6-452d-a378-55b5f764acaa.png" 
               alt="Rebeca Dantas Logo" 
               className="h-12 w-auto"
             />

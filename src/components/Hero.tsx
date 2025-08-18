@@ -56,7 +56,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-rose-400/20 blur-2xl rounded-full"></div>
               <img 
-                src="/lovable-uploads/7fd93af4-e775-45ed-b33c-d51a3da7848e.png" 
+                src="/lovable-uploads/eb26d8cf-aab6-452d-a378-55b5f764acaa.png" 
                 alt="Rebeca Dantas - Assessoria Empresarial" 
                 className="relative z-10 w-80 h-80 object-contain filter drop-shadow-2xl"
               />
