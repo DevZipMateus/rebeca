@@ -17,7 +17,6 @@ const Footer = () => {
               />
               <div>
                 <div className="text-xl font-bold text-rose-400">Rebeca Dantas</div>
-                <div className="text-sm text-gray-400">Assessoria Empresarial</div>
               </div>
             </div>
             <p className="text-gray-300 mb-4 leading-relaxed">
@@ -83,7 +82,7 @@ const Footer = () => {
         
         {/* Copyright */}
         <div className="border-t border-white/10 mt-10 pt-6 text-center text-sm text-white/70">
-          <p>© {new Date().getFullYear()} Rebeca Dantas - Assessoria Empresarial. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Rebeca Dantas. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

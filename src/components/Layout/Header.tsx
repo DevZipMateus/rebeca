@@ -64,7 +64,6 @@ const Header = () => {
             />
             <div className="text-left">
               <div className="text-xl font-bold text-rose-600">Contadora e Perita Trabalhista</div>
-              <div className="text-xs text-gray-600">Assessoria Empresarial</div>
             </div>
           </Link>
           

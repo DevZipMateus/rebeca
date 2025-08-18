@@ -31,7 +31,7 @@ const Index = () => {
         <meta property="og:title" content="Rebeca Dantas - Perita Judicial e Cálculos Trabalhistas" />
         <meta property="og:description" content="A perícia que você pode confiar! Análise técnica e resultados precisos em cálculos trabalhistas." />
         <meta property="og:url" content="https://rebecadantas.com.br" />
-        <meta property="og:site_name" content="Rebeca Dantas - Assessoria Empresarial" />
+        <meta property="og:site_name" content="Rebeca Dantas" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -43,7 +43,7 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ProfessionalService",
-            "name": "Rebeca Gonçalves Da Silva Dantas - Assessoria Empresarial",
+            "name": "Rebeca Gonçalves Da Silva Dantas",
             "description": "Perita Judicial especializada em cálculos trabalhistas, impugnação e liquidação",
             "telephone": "+55-81-98365-5230",
             "email": "rebecadantas16@outlook.com",
