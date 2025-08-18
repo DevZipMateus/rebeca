@@ -7,7 +7,7 @@ const Hero = () => {
   
   return (
     <section className="pt-28 pb-12 md:pt-36 md:pb-20 bg-[#21211F] relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('/lovable-uploads/959cfa63-8215-47d6-af07-85105963df47.png')] bg-cover bg-center opacity-10"></div>
       
       {/* Decorative elements with rose gold theme */}
       <div className="absolute top-40 right-10 w-72 h-72 bg-rose-400/10 rounded-full blur-3xl"></div>
