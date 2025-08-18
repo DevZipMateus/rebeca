@@ -50,15 +50,15 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* Logo Column */}
+          {/* Image Column */}
           <div className="flex justify-center lg:justify-end animate-fade-in" 
                style={{ animationDelay: '0.4s' }}>
             <div className="relative">
               <div className="absolute inset-0 bg-rose-400/20 blur-2xl rounded-full"></div>
               <img 
-                src="/lovable-uploads/eb26d8cf-aab6-452d-a378-55b5f764acaa.png" 
-                alt="Rebeca Dantas - Assessoria Empresarial" 
-                className="relative z-10 w-80 h-80 object-contain filter drop-shadow-2xl"
+                src="/lovable-uploads/af570ceb-a983-44f4-ae58-d3995a665dc8.png" 
+                alt="Rebeca Dantas - Perita Judicial" 
+                className="relative z-10 w-80 h-80 object-cover rounded-lg filter drop-shadow-2xl"
               />
             </div>
           </div>
